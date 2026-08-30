@@ -1,0 +1,26 @@
+# Cargo / Rust build artifacts
+/target
+target/
+
+# Solana build artifacts
+dist/
+program/
+*.so
+
+# Coverage artifacts
+/cov/
+/coverage/
+*.profraw
+*.lcov
+*.info
+
+# Package artifacts
+*.pdb
+*.profdata
+*.profraw
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
